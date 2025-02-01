@@ -2,9 +2,11 @@ public class LengthLastWord {
     public static void main(String[] args) {
         // Create an instance of LengthLastWord
         LengthLastWord len1 = new LengthLastWord();
+
         int length = len1.getLastStringLength("Hello Word");
         int length2 = len1.getLastStringLength("Canis Ouambo    ");
         int length3 = len1.getLastStringLength("First Exercise of Lab1 Week1 for Rapid Applied Problem Solving");
+
         System.out.println("Length of last word: " + length);
         System.out.println("Length of last word: " + length2);
         System.out.println("Length of last word: " + length3);
